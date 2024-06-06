@@ -33,9 +33,14 @@ texto = Label(marco,text="Primer marco")
 texto.config(
     bg="red",
     fg="white",
-    font=("Arial",20)
+    font=("Arial",20),
+    height=10,
+    width=10,
+    bd=3,
+    relief=SOLID,
+    anchor=CENTER
 )
-texto.pack(side=LEFT,anchor=CENTER)
+texto.pack(side="top",anchor=CENTER)
 
 
 
